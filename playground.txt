@@ -1,0 +1,17 @@
+"Ejemplo Version Admin"
+|ventana empresa ventana2 empresa2|
+empresa := VentanaInicioAdmin new.
+empresa initialize.
+ventana := SystemWindow labelled: 'EmpresaTurismo-Admin'.
+ventana addMorph: empresa.
+ventana extent: 1536.0@748.0.
+ventana openInWorld .
+
+"Ejemplo Version Usuario"
+"|ventana empresa ventana2 empresa2|
+empresa2 := VentanaInicio new.
+empresa2 initialize.
+ventana2 := SystemWindow labelled: 'Inicio-Cliente'.
+ventana2 addMorph: empresa2.
+ventana2 extent: 1536.0@807.
+ventana2 openInWorld ."
